@@ -1,0 +1,18 @@
+/* src/styles.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: radial-gradient(circle at top left, rgba(25, 26, 31, 0.7), #191A1F); /* Gradiente radial*/
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+@font-face {
+  font-family: 'Garnet Capitals Black';
+  src: url('/assets/fonts/GarnetCapitals-Black.woff') format('woff2');
+  font-weight: normal; /* Ajuste conforme necessário */
+  font-style: normal; /* Ajuste conforme necessário */
+}

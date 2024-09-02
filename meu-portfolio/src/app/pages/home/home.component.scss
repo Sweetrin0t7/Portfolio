@@ -1,0 +1,47 @@
+/* src/app/pages/home/home.component.css */
+.home-container {
+  width: 100vw;
+  height: 89.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.eu {
+  opacity: 0.6;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  text-align: left;
+  margin: 0;
+}
+
+.nome {
+  letter-spacing: 15px;
+  font-family: 'Garnet Capitals Black', sans-serif;
+  color: #D3D5D4;
+  font-size: 280px;
+  text-align: center;
+  line-height: 280px;
+  margin: -18px
+}
+
+.cargo {
+  opacity: 0.6;
+  letter-spacing: 2px;
+  font-size: 16px;
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Montserrat', sans-serif;
+  margin: 18px 0 0 0;
+}
